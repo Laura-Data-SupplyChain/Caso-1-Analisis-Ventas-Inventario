@@ -55,9 +55,30 @@ En entornos logísticos y operativos, este tipo de errores impacta directamente:
 
 ### 🔹 Datos
 
-- [Dataset original](data/ventas_inventario_dataset_original.csv)
-- [Dataset limpio](data/ventas_inventario_limpieza_datos.csv)
-- [Archivo de trabajo en Excel](data/ventas_inventario.xlsx)
+| ID_Venta | Fecha | Producto | Categoria | Proveedor | Región | Cantidad | Precio_Unit | Stock | Estado |				
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |				
+| V001 | 05/01/2024 | Mouse USB | Perifericos | Proveedor ABC | norte | 10 | 15,5 | 50 | entregado |				
+| V002 | 06-01-24 | Teclado | Perifericos | proveedor abc | Centro |  | 20 | 30 | Pendiente |				
+| V003 | 2024/01/07 | Monitor 24" | Monitores | Proveedor XYZ | Sur | 2 | 0 | 20 | ENTREGADO |				
+| V004 | 08/01/2024 | Laptop | Computo | Proveedor 123 | Norte | 1 | 850 | -5 | Cancelado |				
+| V005 | 09/01/2024 | Mouse USB | Periféricos | Prov. ABC | Centro | 100 | 15,5 | 100 | entregado |				
+| V006 |  | Mouse USB | Perifericos | Proveedor ABC | Norte | 1000 | 15,5 | 100 | Entregado |				
+| V007 | 10/01/2024 | Tablet | Computo |  | Centro | 2 | 250 | 10 | Entregado |				
+
+> [Dataset original](data/ventas_inventario_dataset_original.csv)
+
+| **ID_Venta** | **Fecha** | **Fecha_Analisis** | **Producto** | **Categoria** | **Proveedor** | **Proveedor_Normalizado** | **Región** | **Cantidad** | **Precio_Unit** | **Stock** | **Estado** | **Ventas** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| V001 | 5/01/2024 | 5/01/2024 | Mouse USB | Perifericos | Proveedor ABC | Proveedor ABC | Norte | 10 | 15,5 | 50 | Entregado | $155 |
+| V002 | 6/01/2024 | 6/01/2024 | Teclado | Perifericos | Proveedor ABC | Proveedor ABC | Centro |  | 20,0 | 30 | Pendiente | $0 |
+| V003 | 7/01/2024 | 7/01/2024 | Monitor 24" | Monitores | Proveedor XYZ | Proveedor XYZ | Sur | 2 | 0,0 | 20 | Entregado | $0 |
+| V004 | 8/01/2024 | 8/01/2024 | Laptop | Computo | Proveedor 123 | Proveedor 123 | Norte | 1 | 850,0 | 5 | Cancelado | $850 |
+| V005 | 9/01/2024 | 9/01/2024 | Mouse USB | Perifericos | Proveedor ABC | Proveedor ABC | Centro | 100 | 15,5 | 100 | Entregado | $1.550 |
+| V006 |  | Sin Fecha | Mouse USB | Perifericos | Proveedor ABC | Proveedor ABC | Norte | 1000 | 15,5 | 100 | Entregado | $15.500 |
+| V007 | 10/01/2024 | 10/01/2024 | Tablet | Computo |  | Anonimo | Centro | 2 | 250,0 | 10 | Entregado | $500 |
+ 
+> [Dataset limpio](data/ventas_inventario_limpieza_datos.csv) | 
+> [Archivo de trabajo en Excel](data/ventas_inventario.xlsx)
 
 ### 🔹 Visualizaciones
 
@@ -183,3 +204,4 @@ Este proyecto demuestra capacidad para:
 
 Este es el primero de una serie de casos prácticos enfocados en análisis aplicado a Logística, Operaciones y Datos.
 Visualización ejecutiva de resultados
+
