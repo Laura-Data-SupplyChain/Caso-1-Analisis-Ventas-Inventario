@@ -3,7 +3,7 @@ Proyecto aplicado a Logística, Operaciones y Análisis de Datos
 
 ---
 
-## 📑 Índice
+## Índice
 
 1. [Objetivo del Caso](#-objetivo-del-caso)
 2. [Contexto del Problema](#-contexto-del-problema)
@@ -16,7 +16,7 @@ Proyecto aplicado a Logística, Operaciones y Análisis de Datos
 
 ---
 
-## 🎯 Objetivo del Caso
+## Objetivo del Caso
 
 Simular un escenario real de análisis en un entorno de e-commerce, donde se requiere:
 
@@ -40,7 +40,7 @@ Este ejercicio refleja funciones propias de roles como:
 
 - Analista de Datos / E-commerce
 
-## 🗂 Contexto del Problema
+## Contexto del Problema
 
 Se trabajó con una base de datos con errores intencionales que simulaban problemas comunes en entornos reales:
 
@@ -66,7 +66,7 @@ En entornos logísticos y operativos, este tipo de errores impacta directamente:
 
 - Evaluación de proveedores
 
-## 📂 Archivos del Proyecto
+## Archivos del Proyecto
 
 ### 🔹 Datos
 
@@ -113,7 +113,7 @@ En entornos logísticos y operativos, este tipo de errores impacta directamente:
 #### Tabla Dinámica Resumen
 ![Tabla Dinámica](images/tabla_dinamica_resumen.png)
 
-## 🧹 Gestión y Control de Calidad de Datos
+## Gestión y Control de Calidad de Datos
 
 Se implementó un proceso estructurado de limpieza:
 
@@ -134,9 +134,9 @@ Se implementó un proceso estructurado de limpieza:
 
 - El dataset original se mantuvo intacto
 
-## 🔎 Enfoque aplicado: control, trazabilidad y transparencia de información.
+## Enfoque aplicado: control, trazabilidad y transparencia de información.
 
-### 📊 Análisis Desarrollado
+### Análisis Desarrollado
 
 Se construyeron tablas dinámicas para evaluar:
 
@@ -154,7 +154,7 @@ Para análisis de ingresos reales, se consideraron únicamente pedidos con estad
 
 Este criterio refleja buenas prácticas en control de operaciones y análisis financiero.
 
-### 📈 Hallazgos Clave
+### Hallazgos Clave
 
 - Producto con mayor ingreso: **Mouse USB**
 
@@ -166,7 +166,7 @@ Este criterio refleja buenas prácticas en control de operaciones y análisis fi
 
 - Detección de registro sin fecha (riesgo en reportes temporales)
 
-### 🧠 Enfoque Analítico Aplicado
+### Enfoque Analítico Aplicado
 
 Este proyecto demuestra capacidad para:
 
@@ -183,7 +183,7 @@ Este proyecto demuestra capacidad para:
 ✔ Generar reportes claros para áreas ejecutivas
 
 
-### 🛠 Herramientas Utilizadas
+### Herramientas Utilizadas
 
 - Google Sheets
 
@@ -191,7 +191,7 @@ Este proyecto demuestra capacidad para:
 
 - Validación y estructuración de datos
 
-## 📌 Relevancia para Áreas Profesionales
+## Relevancia para Áreas Profesionales
 ### 🔹 Logística & Supply Chain
 
 - Control de estados de pedido
@@ -225,6 +225,7 @@ Este proyecto demuestra capacidad para:
 
 Este es el primero de una serie de casos prácticos enfocados en análisis aplicado a Logística, Operaciones y Datos.
 Visualización ejecutiva de resultados
+
 
 
 
