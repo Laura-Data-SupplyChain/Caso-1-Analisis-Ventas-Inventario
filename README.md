@@ -20,6 +20,8 @@ Se trabajó sobre una base con errores intencionales:
 - Precio unitario en 0
 - Registro sin fecha
 
+  [Dataset Original](ventas_inventario - dataset_original.csv)
+
 ### Acciones realizadas:
 
 - Normalización de texto (Proveedor, Categoría, Estado)
@@ -85,3 +87,4 @@ Se utilizó una paleta corporativa en verde oscuro y formato limpio orientado a 
 - Presentación ejecutiva de resultados
 
 - Enfoque en trazabilidad y transparencia
+
