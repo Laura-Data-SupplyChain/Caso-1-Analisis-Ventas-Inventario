@@ -171,11 +171,17 @@ Este criterio refleja buenas prácticas en control de operaciones y análisis fi
 Este proyecto demuestra capacidad para:
 
 ✔ Identificar riesgos en calidad de datos
+
 ✔ Separar operación activa vs resultados consolidados
+
 ✔ Analizar desempeño comercial y logístico
+
 ✔ Evaluar proveedores
+
 ✔ Apoyar decisiones de abastecimiento
+
 ✔ Generar reportes claros para áreas ejecutivas
+
 
 ### 🛠 Herramientas Utilizadas
 
@@ -219,5 +225,6 @@ Este proyecto demuestra capacidad para:
 
 Este es el primero de una serie de casos prácticos enfocados en análisis aplicado a Logística, Operaciones y Datos.
 Visualización ejecutiva de resultados
+
 
 
