@@ -7,8 +7,8 @@ Proyecto aplicado a Logística, Operaciones y Análisis de Datos
 
 1. [Objetivo del Caso](#objetivo-del-caso)
 2. [Archivos del Proyecto](#archivos-del-proyecto)
-3. [Gestión y Limpieza de Datos](#gestión-y-limpieza-de-datos)
-4. [Visualizaciones](#visualizaciones)
+3. [Visualizaciones](#visualizaciones)
+4. [Gestión y Limpieza de Datos](#gestión-y-limpieza-de-datos)
 5. [Hallazgos Clave](#hallazgos-clave)
 6. [Relevancia para Supply Chain](#relevancia-para-supply-chain)
 
@@ -18,6 +18,7 @@ Proyecto aplicado a Logística, Operaciones y Análisis de Datos
 
 Simular análisis de ventas e inventario en un entorno de **Supply Chain / operaciones**, depurando datos y generando insights para la toma de decisiones.
 
+<a id="archivos-del-proyecto"></a>
 ## Archivos del proyecto
 
 - 📊 [Dataset original](data/ventas_inventario_dataset_original.csv)
@@ -46,6 +47,7 @@ Simular análisis de ventas e inventario en un entorno de **Supply Chain / opera
 
 - 📊 [Archivo de trabajo en Google Sheets](data/ventas_inventario.xlsx)
 
+<a id="visualizaciones"></a>
 ## Visualizaciones
 
 #### Ingresos por Producto
@@ -61,23 +63,27 @@ Simular análisis de ventas e inventario en un entorno de **Supply Chain / opera
 #### Distribución de Ventas por Región (%)
 ![Distribución de Ventas por Región (%)](images/Distribución_Ventas.png)
 
+<a id="gestion-y-limpieza-de-datos"></a>
 ## Gestión y limpieza de datos
 - Normalización de proveedores, categorías y estado de pedidos
 - Validación y estandarización de fechas
 - Cálculo de ventas: `Ventas = Cantidad × Precio_Unit`
 - Registro sin fecha identificado como "Sin Fecha" para mantener trazabilidad
 
+<a id="hallazgos-clave"></a>
 ## Hallazgos Clave
 - Producto con mayor ingreso: **Mouse USB**
 - Proveedor con mayor facturación: **Proveedor ABC**
 - Región con mayor volumen de ventas: **Norte**
 - Identificación de pedidos pendientes y cancelados que no impactan ingresos reales
 
+<a id="relevancia-para-supply-chain"></a>
 ## Relevancia para Supply Chain
 - Control de estados de pedido
 - Evaluación de proveedores
 - Análisis de rotación y desempeño por región
 - Apoyo en decisiones de abastecimiento
+
 
 
 
