@@ -13,7 +13,7 @@ Proyecto aplicado a Logística, Operaciones y Análisis de Datos
 6. [Relevancia para Supply Chain](#relevancia-para-supply-chain)
 
 ---
-
+<a id="objetivo-del-caso"></a>
 ## Objetivo del Caso
 
 Simular análisis de ventas e inventario en un entorno de **Supply Chain / operaciones**, depurando datos y generando insights para la toma de decisiones.
@@ -78,6 +78,7 @@ Simular análisis de ventas e inventario en un entorno de **Supply Chain / opera
 - Evaluación de proveedores
 - Análisis de rotación y desempeño por región
 - Apoyo en decisiones de abastecimiento
+
 
 
 
